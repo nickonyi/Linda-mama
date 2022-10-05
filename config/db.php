@@ -2,11 +2,11 @@
 
 session_start();
 ini_set('display_errors',1);
-define('SITEURL','http://localhost/food-ordering-system/');
+define('SITEURL','http://localhost/Linda_Mama/');
 $dbservername = "localhost";
 $dbusername ="root";
 $dbpassword="";
-$dbname= "Linda-Mama";
+$dbname= "Linda_Mama";
 
 $conn = mysqli_connect($dbservername,$dbusername,$dbpassword,$dbname); //database connection
 if(!$conn){
