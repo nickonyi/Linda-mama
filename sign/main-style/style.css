@@ -96,3 +96,20 @@ body {
     bottom: 15%;
     right: 10px;
 }
+
+.btn-log {
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    background-color: rgb(185, 24, 24);
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-log>a {
+    text-decoration: none;
+    color: #fff;
+}

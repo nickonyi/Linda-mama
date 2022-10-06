@@ -164,7 +164,7 @@ if(empty(trim($_POST["email"]))){
   <br>
   <input id="button" type="submit" value="Submit">
   <br>
-  <a href="#">Nevermind</a>
+  <a href="login.php">Login</a>
 </form>
 
     

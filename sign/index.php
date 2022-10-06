@@ -1,3 +1,13 @@
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +19,13 @@
 </head>
 <body>
     <div class="container">
+        <button class="btn-log"><a href="logout.php">Logout</a></button>
         <div class="header">
             <div class="header-1"><img src="./assets/home-icon.png" alt=""></div>
             <div class="linda-mama-container-header">
             <div class="header-2"><img src="./assets/Mama-Care.png" alt=""></div> 
             <div class="header-3"><img src="./assets/slasher.png" alt=""></div> 
-            <div class="header-4"><img src="./assets/Baby-Care.png" alt=""></div>
+            <div class="header-4"> <a href="baby-care.php"><img src="./assets/Baby-Care.png" alt=""></a></div>
             </div>
             <div class="header-5"><img src="./assets/calendar-icon.png" alt=""></div>
         </div>
@@ -23,8 +34,10 @@
             <div class="main-content-img">
                 <img class="main-img" src="./assets/main-img.png" alt="">
                 <div class="small-content-img-1">
+                    <a href="trimester.php">
                 <img class="side-img-1-a" src="./assets/trim.png" alt="">
                 <img class="side-img-2-a" src="./assets/TRIMESTERS.png" alt="">
+                </a>
                 </div>
                 <div class="small-content-img-2">
                 <img class="side-img-1-b" src="./assets/self-d.png" alt="">
