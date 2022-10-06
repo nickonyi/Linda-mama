@@ -5,13 +5,8 @@
 }
 
 body {
-    background-image: url("../assets/main-back.png");
-}
-
-.container {
-    color: red;
-    height: 100vh;
-    width: 100%;
+    background-image: linear-gradient(to right, rgb(173, 216, 230, 0.5), rgb(135, 206, 235, 0.5)), url('../assets/baby-back-1.png'), url('../assets/baby-back-2.png');
+    background-blend-mode: lighten;
 }
 
 .header {
@@ -26,58 +21,62 @@ body {
     margin-top: 20px;
 }
 
-.main-img {
+.baby-main-img {
+    position: absolute;
+    left: 10%;
+}
+
+.baby-img-1-a {
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 20%;
 }
 
-.side-img-1-a {
+.baby-img-2-a {
     position: absolute;
-    top: 40%;
-    left: 28%;
+    top: 33%;
+    left: 35%;
 }
 
-.side-img-2-a {
+.baby-img-1-b {
     position: absolute;
-    top: 60%;
-    left: 28%;
+    top: 53%;
+    left: 20%;
 }
 
-.side-img-1-b {
+.baby-img-2-b {
     position: absolute;
-    top: 35%;
-    left: 52%;
+    top: 55%;
+    left: 33%;
 }
 
-.side-img-2-b {
+.baby-img-1-c {
     position: absolute;
-    top: 60%;
-    left: 52%;
+    top: 80%;
+    left: 20%;
 }
 
-.side-img-1-c {
+.baby-img-2-c {
     position: absolute;
-    top: 85%;
-    left: 28%;
+    top: 83%;
+    left: 38%;
 }
 
-.side-img-2-c {
+.baby-img-1-d {
     position: absolute;
-    top: 110%;
-    left: 28%;
+    top: 103%;
+    left: 20%;
 }
 
-.side-img-1-d {
+.baby-img-2-d {
     position: absolute;
-    top: 85%;
-    left: 53%;
+    top: 107%;
+    left: 38%;
 }
 
-.side-img-2-d {
+.mama-love-img {
     position: absolute;
-    top: 110%;
-    left: 53%;
+    right: 15%;
 }
 
 .side-content-img-1 {
@@ -87,12 +86,12 @@ body {
 
 .side-content-img-2 {
     position: absolute;
-    bottom: -10%;
+    bottom: -20%;
     right: 10px;
 }
 
 .side-content-img-3 {
     position: absolute;
-    bottom: 15%;
+    bottom: -2%;
     right: 10px;
 }

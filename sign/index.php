@@ -21,7 +21,7 @@
 
         <div class="main-content">
             <div class="main-content-img">
-            <img class="main-img" src="./assets/main-img.png" alt="">
+                <img class="main-img" src="./assets/main-img.png" alt="">
                 <div class="small-content-img-1">
                 <img class="side-img-1-a" src="./assets/trim.png" alt="">
                 <img class="side-img-2-a" src="./assets/TRIMESTERS.png" alt="">
@@ -34,9 +34,17 @@
                 <img class="side-img-1-c" src="./assets/mental-aware.png" alt="">
                 <img class="side-img-2-c" src="./assets/mental-awareness.png" alt="">
                 </div>
-                <div class="small-content-img-4"></div>
+                <div class="small-content-img-4">
+                <img class="side-img-1-d" src="./assets/growth-check.png" alt="">
+                <img class="side-img-2-d" src="./assets/growth-checker.png" alt="">
+                </div>
                 
             </div>
+        </div>
+        <div class="side-content">
+            <img class="side-content-img-1" src="./assets/speaker.png" alt="">
+            <img class="side-content-img-2" src="./assets/live-chat.png" alt="">
+            <img class="side-content-img-3" src="./assets/customer-serve.png" alt="">
         </div>
         
     </div>
