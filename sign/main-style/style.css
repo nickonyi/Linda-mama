@@ -31,3 +31,39 @@ body {
     top: 30%;
     left: 25%;
 }
+
+.side-img-1-a {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+.side-img-2-a {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+
+.side-img-1-b {
+    position: absolute;
+    top: 35%;
+    left: 52%;
+}
+
+.side-img-2-b {
+    position: absolute;
+    top: 60%;
+    left: 52%;
+}
+
+.side-img-1-c {
+    position: absolute;
+    top: 85%;
+    left: 28%;
+}
+
+.side-img-2-c {
+    position: absolute;
+    top: 110%;
+    left: 28%;
+}
